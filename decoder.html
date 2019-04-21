@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>The Ultimate Message Encryption Service </title>
+	<link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+
+<body>
+	<div id="header">
+		<h1><a href="/">The Ultimate Message Encryption Service</a></h1>
+	</div>
+	<div id="container">
+		<div id="encrypt-panel">
+			<form method="POST" action="/encrypt">
+				<div>
+					<h3>Unencrypted</h3>
+					<textarea name="message" rows="10" cols="50"></textarea>
+				</div>
+				<div><input type="submit" value="Encrypt">rule</input></div>
+			</form>
+		</div>
+		<div id="decrypt-panel">
+			<form method="POST" action="/decrypt">
+				<div>
+					<h3>Encrypted</h3>
+					<textarea name="encrypted" rows="10" cols="50">hello</textarea>
+				</div>
+				<div>
+					<input type="submit" value="Decrypt"></input>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

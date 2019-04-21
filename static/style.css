@@ -1,0 +1,22 @@
+
+body {
+	padding: 2px;
+}
+
+div#header {
+	padding: 3px;
+}
+
+div#container {
+	width: 100%;
+	padding: 30px;
+	display: flex;
+}
+
+div#encrypt-panel {
+	width: 45%;
+}
+
+div#decrypt-panel {
+	flex-grow: 1;
+}
